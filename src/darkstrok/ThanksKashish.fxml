@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="851.0" prefWidth="1267.0" style="-fx-background-color: #2a2e37;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="darkstrok.ThanksKashishController">
+   <children>
+      <Label layoutX="505.0" layoutY="384.0" text="Special Thanks To:" textFill="#b2b2b2">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="418.0" layoutY="36.0" text="Created and Developed By:" textFill="#b2b2b2">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="108.0" layoutY="134.0" text="ROBIN SINGH CHOUHAN" textFill="#f6f688">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+      <Label layoutX="121.0" layoutY="542.0" text="SHRUTI  GOVINDJIWALA" textFill="#f6f688">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

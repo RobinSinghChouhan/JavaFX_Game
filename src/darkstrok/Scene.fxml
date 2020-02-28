@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="375.0" prefWidth="299.0" style="-fx-background-color: #2A2E37;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="darkstrok.SceneController">
+   <children>
+      <Label fx:id="l1" layoutX="54.0" layoutY="75.0" text="L!" textFill="#b2b2b2">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="l2" layoutX="121.0" layoutY="75.0" text="L@" textFill="#b2b2b2">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="l3" layoutX="207.0" layoutY="75.0" text="L3" textFill="#b2b2b2">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="b1" layoutX="54.0" layoutY="201.0" onAction="#nextQ2" style="-fx-background-radius: 20px; -fx-border-color: #f6f688; -fx-border-radius: 20px;" stylesheets="@darkstrok.css" text="Button" textFill="#b2b2b2">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></JFXButton>
+      <JFXButton fx:id="b2" layoutX="177.0" layoutY="201.0" onAction="#nextQ2" style="-fx-background-radius: 20px; -fx-border-color: #f6f688; -fx-border-radius: 20px;" stylesheets="@darkstrok.css" textFill="#b2b2b2">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></JFXButton>
+      <JFXButton fx:id="b3" layoutX="54.0" layoutY="270.0" onAction="#nextQ2" style="-fx-background-radius: 20px; -fx-border-color: #f6f688; -fx-border-radius: 20px;" stylesheets="@darkstrok.css" textFill="#b2b2b2">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></JFXButton>
+      <JFXButton fx:id="b4" layoutX="177.0" layoutY="270.0" onAction="#nextQ2" style="-fx-background-radius: 20px; -fx-border-color: #f6f688; -fx-border-radius: 20px;" stylesheets="@darkstrok.css" textFill="#b2b2b2">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></JFXButton>
+   </children>
+</AnchorPane>
